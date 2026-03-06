@@ -6,4 +6,4 @@
 This is a simple website to show how CI/CD works using GitHub Actions and GitHub Pages.
 
 ## Website Link
-[I will add the link here after I deploy it]
+[https://emadalaa2003.github.io/cloud-beginner-cicd-pages-EmadJaber/]
