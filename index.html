@@ -13,22 +13,16 @@
 
         <hr>
 
-        <h3>What is CI/CD?</h3>
+    <h3>What is CI/CD?</h3>
         <p>
-            CI/CD stands for Continuous Integration and Continuous Deployment. 
-            Continuous Integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single repository. 
-            Continuous Deployment (CD) goes a step further by automatically deploying those validated changes to a live environment. 
-            Together, they form a pipeline that helps development teams deliver software updates faster, more reliably, and with fewer manual errors.
+            CI/CD is a way to automate our work in software development. CI means Continuous Integration, where code is tested automatically. CD means Continuous Deployment, where the code is uploaded to the server automatically. It saves time and prevents manual errors.
         </p>
 
         <h3>My Pipeline</h3>
         <p>
-            When I push my code changes to the <strong>main</strong> branch on GitHub, a GitHub Actions workflow is automatically triggered. 
-            This workflow checks out my code, verifies that all required files exist, and then automatically deploys the static files to GitHub Pages, making the updated website live on the internet.
+            For this assignment, I am using GitHub Actions and GitHub Pages. When I push my HTML and CSS files to the 'main' branch, GitHub Actions runs a simple workflow. This workflow checks the files and then deploys my website so anyone can visit it.
         </p>
-
-        <hr>
-
+    <h3>Updet</h3>
         <h3>Interactive Feature</h3>
         <p id="status-text">Click the button to deploy!</p>
         <button id="action-btn">Deploy Now</button>
